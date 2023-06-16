@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root{
+    --main-color: #000000;
+    --second-color: #72624D;
+    --body-color :  #ffffff;
+
+    --main-font : 'Inter', sans-serif;
+    --heading-font : 'Inter', sans-serif;
+}
+
+body{
+    background: var(--body-color);
+    font-family: var(--main-font);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 200px;
+}
+
+.container{
+    max-width: 3000px;
+}
+
+.navbar{
+    background-color: #72624D;
+    padding-left: 200px
+}
+
+.navbar .nav-wrapper{
+    background-color: #ffffff;
+    width: 1600px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.nav-wrapper .logo{
+    width: 79px;
+    height: 85px;
+    left: 140px;
+    top: 59px;
+    display: flex;
+    align-items: center;
+    
+    background: url(logo%20new.png);
+}
+
+.nav-wrapper .logo-word{
+    position: relative;
+    width: 297px;
+    height: 61px;
+    left: 219px;
+    top: 71px;
+    display: contents;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+
+}
+.nav-wrapper .menu-wrapper{
+    display: flex;
+    gap: 273px;
+    padding-right: 50px;
+    background-color: #ffffff;
+}
+
+.nav-wrapper .menu-wrapper .menu{
+    display: flex;
+    gap: 133px;
+    padding-top: 15px;
+}
+
+.nav-wrapper .menu-wrapper .menu-link{
+    font-size: 1.438rem;
+    color: #000000;
+    font-family: var(--main-font);
+    font-weight: bold;
+    height: 50px;
+    text-decoration: #22447b;
+}
+
+.nav-wrapper .account{
+    background-color: #ffffff;
+}
+
+.right {
+    margin-left: 200px;
+}
+
+.right .button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 257px;
+    height: 52px;
+    left: 300px;
+    top: 700px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.right .quotes{
+    position: absolute;
+    width: 745px;
+    height: 392px;
+    left: 300px;
+    top: 272px;
+
+}
+.search{
+    position: absolute;
+    width: 734px;
+    height: 234px;
+    left: 600px;
+    top: 1218px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+    padding-right: 450px;
+
+}
+
+.search input{
+    position: absolute;
+    top: 130px;
+    width: 500px;
+    height: 52px;
+    left: 40px;
+    background: #D9D9D9;
+    border-radius: 3px;
+    border: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    padding: 10px ;
+
+    color: #000000;
+
+}
+
+.search .button{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    width: 1px;
+    height: 1px;
+}
+
+.site-container{
+    line-height: 1.5;
+    font-size: 100%;
+    font-size: 16px;
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 212px;
+    height: 48px;
+}
+
+.article-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmas(256px, 1fr));
+    gap: 2rem;
+    margin-top: 699px;
+    justify-content: center;
+}
+
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image img {
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card{
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+
+.article-content {
+    padding: 2rem;
+}
+
+.article-content .card-title {
+    margin: 1rem 0;
+    color: #22447b;
+}
+
+.article-container .card-price {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+
+.judul-explore {
+    position: absolute;
+    left: 800px;
+    top: 1584px;
+    
+}
+
+.kelebihan .tulisan{
+    left: 150px;
+    top: 2125.7px;
+    position: absolute;
+ 
+    height: 1236.3px;
+}
+
+.kelebihan .gif{
+    position: absolute;
+width: 493px;
+height: 350px;
+left: 1370px;
+top: 2571px;
+}
